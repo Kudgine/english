@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shop" />
+
+    <RelativeLayout
+        android:id="@+id/rlMic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@id/llDialog"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/white_circle_def">
+
+        <ImageView
+            android:id="@+id/icMic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="visible"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_mic_off_24" />
+
+        <ProgressBar
+            android:id="@+id/pvLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="15dp"
+            android:indeterminateDrawable="@drawable/progress_bar"
+            android:progressDrawable="@drawable/progress_bar"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llDialog"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/white_rounded">
+
+        <TextView
+            android:id="@+id/tvAsk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="You:\n \n    - Hi! Nice to meet you  too." />
+    </LinearLayout>
+
+</RelativeLayout>

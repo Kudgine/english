@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Crimean English</string>
+    <string name="personal_account">Личный кабинет</string>
+
+    <string name="menu_education">education</string>
+    <string name="menu_dictionary">dictionary</string>
+    <string name="menu_favorite">favorite</string>
+    <string name="menu_grammar">grammar</string>
+
+    <string name="education">Обучение</string>
+    <string name="dictionary">Словарь</string>
+    <string name="grammar">Грамматика</string>
+    <string name="favorite">Избранное</string>
+
+    // login / register
+    <string name="register">Регистрация</string>
+    <string name="small_password">password</string>
+    <string name="password">Password</string>
+    <string name="example_email">example@mail.ru</string>
+    <string name="email">Email</string>
+    <string name="login">Авторизация</string>
+    <string name="is_account_exist">Уже есть аккаунт?</string>
+    <string name="account_no_exist">Нет аккаунта?</string>
+    <string name="empty_error">Поле не должно быть пустым</string>
+    <string name="valid_email_error">Введите корректный email</string>
+    <string name="password_length_email_error">Длина пароля должна быть больше 5 символов</string>
+    <string name="default_error">Возникла ошибка. Попробуйте еще раз</string>
+    <string name="account_title">Личный кабинет</string>
+
+    <string name="hint">Поиск</string>
+    <string name="happened_error">Возникла ошибка попробуйте еще раз</string>
+    <string name="error_on_auth">Возникла ошибка при авторизации</string>
+    <string name="action">Action</string>
+    <string name="email_is_already_used">Этот email уже занят</string>
+    <string name="support_doesnt_work">Поддержка пока не доступна</string>
+    <string name="years">Сколько Вам лет?</string>
+    <string name="_18">18</string>
+    <string name="gender">Укажите Ваш гендер</string>
+    <string name="male">мужской</string>
+
+    <string name="lessons">Карта</string>
+    <string name="press_btn_and_say">Зажмите картинку микрофона и говорите</string>
+    <string name="no_right">%s Неверно, попробуйте еще раз</string>
+    <string name="no_right_def">Sorry. I didn\'t understand.</string>
+    <string name="no_right_def_one">What do you mean?</string>
+    <string name="exit_account">Выйти из аккаунта</string>
+    <string name="end_of_lessons">Вопросы этого урока подошли к концу, можно переходить к следующему</string>
+    <string name="title_activity_top">TopActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+    <string name="dialog_city_shop_condition_start">Пора исполнить давнюю мечту и купить баночку арахисовой пасты. Всегда мечтал ее попробовать. \n Но где же ее найти?</string>
+    <string name="dialog_city_shop_condition_finish">Арахисовая паста оказалась действительно вкусной!</string>
+
+    <string name="dialog_city_observatory_condition_start">Это здание очень необычное! У меня в городе таких не было. \n Интресно что там находится?</string>
+    <string name="dialog_city_observatory_condition_finish">Никогда раньше не видел обсерваторий! \n Может начать изучать космос?</string>
+
+    <string name="dialog_access_denied">Пройдите предыдущий диалог для того чтобы открыть этот</string>
+
+</resources>

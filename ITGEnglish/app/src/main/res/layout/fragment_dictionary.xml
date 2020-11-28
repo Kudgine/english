@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:overScrollMode="never"
+    tools:context=".ui.dictionary.DictionaryFragment"
+    tools:ignore="ContentDescription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/vSearch"
+            layout="@layout/view_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvWords"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/vSearch"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            android:overScrollMode="never"
+            android:visibility="visible"
+            tools:itemCount="12"
+            tools:listitem="@layout/row_word" />
+
+        <ImageView
+            android:id="@+id/ivEmptyList"
+            android:layout_width="50dp"
+            android:visibility="gone"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_list_24" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
